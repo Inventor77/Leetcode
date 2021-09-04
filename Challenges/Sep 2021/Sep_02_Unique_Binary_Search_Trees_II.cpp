@@ -80,3 +80,32 @@ public:
 // };
 
 // -----------------------------------------------------
+
+
+// ---------------- 11500KB ----------------------------
+
+// class Solution {
+// public:
+//     vector<TreeNode*> generateTrees(int n) {
+//         vector<vector<vector<TreeNode*>>> dp(n + 2, vector<vector<TreeNode*>>(n + 1, { nullptr }));
+//         for (int len = 1; len <= n; ++len) {
+//             for (int i = 1; i + len - 1 <= n; ++i) {
+//                 int j = i + len - 1;
+//                 dp[i][j].clear();
+//                 for (int k = i; k <= j; ++k) {
+//                     for (auto* lhs : dp[i][k - 1]) {
+//                         for (auto* rhs : dp[k + 1][j]) {
+//                             TreeNode* node = new TreeNode(k);
+//                             node->left = lhs;
+//                             node->right = rhs;
+//                             dp[i][j].push_back(node);
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         return dp[1][n];
+//     }
+// };
+
+// -----------------------------------------------------
