@@ -2,12 +2,14 @@
 
 This repository contains the solutions for the September Leetcode Challenge. Below are the links of questions on LeetCode if you wish to try them yourself!
 
- - [Day 1](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3960/)
+ - [Day 1](https://leetcode.com/problems/array-nesting/)
 
- - [Day 2](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3961/)
+ - [Day 2](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 
- - [Day 3](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3962/)
+ - [Day 3](https://leetcode.com/problems/erect-the-fence/)
 
- - [Day 4](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3963/)
+ - [Day 4](https://leetcode.com/problems/sum-of-distances-in-tree/)
 
- - [Day 5](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/636/week-1-september-1st-september-7th/3964/)
+ - [Day 5](https://leetcode.com/problems/orderly-queue/)
+
+ - [Day 6](https://leetcode.com/problems/slowest-key/)
