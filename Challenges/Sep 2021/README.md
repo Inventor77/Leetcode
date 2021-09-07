@@ -13,3 +13,5 @@ This repository contains the solutions for the September Leetcode Challenge. Bel
  - [Day 5](https://leetcode.com/problems/orderly-queue/)
 
  - [Day 6](https://leetcode.com/problems/slowest-key/)
+
+ - [Day 7](https://leetcode.com/problems/reverse-linked-list/)
