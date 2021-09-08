@@ -15,3 +15,5 @@ This repository contains the solutions for the September Leetcode Challenge. Bel
  - [Day 6](https://leetcode.com/problems/slowest-key/)
 
  - [Day 7](https://leetcode.com/problems/reverse-linked-list/)
+
+ - [Day 8](https://leetcode.com/problems/shifting-letters/)
