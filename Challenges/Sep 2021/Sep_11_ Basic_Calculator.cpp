@@ -1,53 +1,6 @@
 class Solution {
 public:
     int calculate(string s) {
-        int n = s.size();
-        long ans = 0, sign = 1;
-        stack<int> nums, ops;
-        for (int i = 0; i < n; i++)
-        {
-            if (isdigit(s[i]))
-            {
-                long sum = 0;
-                while (i < n && isdigit(s[i]))
-                {
-                    sum = (sum * 10 + s[i] - '0');
-                    i++;
-                    ans += sum * sign;
-                    i--;
-                }
-            }
-            else
-            {
-                if (s[i] == '+') sign = 1;
-                else if (s[i] == '-') sign = -1;
-                else if (s[i] == '(')
-                {
-                    nums.push(ans);
-                    ans = 0;
-                    ops.push(sign);
-                    sign = -1;
-                }
-                else if (s[i] == ')')
-                {
-                    ans = ops.top() * ans + nums.top();
-                    ops.pop();
-                    nums.pop();
-                }
-            }       
-        }
-        return ans;
-    }
-};
-
-
-
-
-
-
-class Solution {
-public:
-    int calculate(string s) {
         stack<pair<int, int>> st; // pair(prev_calc_value , sign before next bracket () )
 
         long long int sum = 0;
@@ -92,3 +45,104 @@ public:
         return sum;
     }
 };
+
+
+// ---------------------- 0ms Submission ----------------------------
+
+// class Solution {
+// public:
+//     bool isdigit(char s)
+//     {
+//         if (s >= '0' && s <= '9')
+//             return true;
+//         return false;
+//     }
+//     int calculate(string s) {
+//         int n = s.size();
+//         stack<int>st;
+//         int sum = 0;
+//         int sign = 1;
+//         int val = 0;
+//         for (int i = 0;i < n;i++)
+//         {
+//             while (i < n && isdigit(s[i]))
+//             {
+//                 val = val * 10 + (s[i] - '0');
+//                 i++;
+//             }
+//             sum += (val * sign);
+//             val = 0;
+//             if (s[i] == '-')
+//                 sign = -1;
+//             else if (s[i] == '+')
+//                 sign = 1;
+//             else if (s[i] == '(')
+//             {
+//                 st.push(sum);
+//                 sum = 0;
+//                 st.push(sign);
+//                 sign = 1;
+//             }
+//             else if (s[i] == ')')
+//             {
+//                 sum = sum * st.top();
+//                 st.pop();
+//                 sum += st.top();
+//                 st.pop();
+//             }
+//         }
+//         return sum;
+//     }
+// };
+
+// ------------------------------------------------------------------
+
+// --------------------- 7600KB Submission -------------------------
+
+// class Solution {
+// public:
+//     int calculate(string& s) {
+//         int result = 0;
+//         long long int prev = 0;
+//         int sign = 1;
+
+//         // <operand, sign>
+//         std::vector<std::pair<int, int>> operands;
+//         for (const char ch : s) {
+//             if (isdigit(ch)) {
+//                 prev *= 10;
+//                 prev += ch - '0';
+//             }
+//             else if (ch == ' ') {
+//             }
+//             else if (ch == '+') {
+//                 result += prev * sign;
+//                 prev = 0;
+//                 sign = 1;
+//             }
+//             else if (ch == '-') {
+//                 result += prev * sign;
+//                 prev = 0;
+//                 sign = -1;
+//             }
+//             else if (ch == '(') {
+//                 operands.emplace_back(result, sign);
+//                 result = 0;
+//                 sign = 1;
+//             }
+//             else if (ch == ')') {
+//                 result += prev * sign;
+//                 const auto& operand_sign = operands.back();
+//                 result *= operand_sign.second;
+//                 result += operand_sign.first;
+//                 operands.pop_back();
+//                 prev = 0;
+//                 // sign = 1;
+//             }
+//         }
+
+//         return result + sign * prev;
+//     }
+// };
+
+// -----------------------------------------------------------------
