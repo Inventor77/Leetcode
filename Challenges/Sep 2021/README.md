@@ -18,3 +18,10 @@ This repository contains the solutions for the September Leetcode Challenge. Bel
 
  - [Day 8](https://leetcode.com/problems/shifting-letters/)
 
+ - [Day 9](https://leetcode.com/problems/largest-plus-sign/)
+
+ - [Day 10](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)
+
+ - [Day 11](https://leetcode.com/problems/basic-calculator/) ``` Interview ``` 
+
+ - [Day 12](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)
