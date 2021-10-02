@@ -4,7 +4,7 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 1](https://leetcode.com/problems/longest-common-subsequence/) `DP`
 
-- [Day 2]()
+- [Day 2](https://leetcode.com/problems/dungeon-game/) `DP`
 
 - [Day 3]()
 
