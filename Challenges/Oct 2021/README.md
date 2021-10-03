@@ -6,7 +6,7 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 2](https://leetcode.com/problems/dungeon-game/) `DP`
 
-- [Day 3]()
+- [Day 3](https://leetcode.com/problems/jump-game/) `Greedy` `DP` `Amazon interview`
 
 - [Day 4]()
 
