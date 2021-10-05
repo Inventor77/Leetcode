@@ -10,7 +10,7 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 4](https://leetcode.com/problems/island-perimeter/) `Iterative` `DFS` 
 
-- [Day 5]()
+- [Day 5](https://leetcode.com/problems/climbing-stairs/) `DP` `Tabulation` `Recursion and Memoization`
 
 - [Day 6]()
 
