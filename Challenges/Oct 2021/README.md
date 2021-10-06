@@ -12,7 +12,7 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 5](https://leetcode.com/problems/climbing-stairs/) `DP` `Tabulation` `Recursion and Memoization`
 
-- [Day 6]()
+- [Day 6](https://leetcode.com/problems/find-all-duplicates-in-an-array/) 
 
 - [Day 7]()
 
