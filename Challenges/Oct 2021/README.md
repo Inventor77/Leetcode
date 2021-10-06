@@ -6,13 +6,13 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 2](https://leetcode.com/problems/dungeon-game/) `DP`
 
-- [Day 3](https://leetcode.com/problems/jump-game/) `Greedy` `DP` `Amazon interview`
+- [Day 3](https://leetcode.com/problems/jump-game/) `Greedy` `DP` `Interview`
 
 - [Day 4](https://leetcode.com/problems/island-perimeter/) `Iterative` `DFS` 
 
 - [Day 5](https://leetcode.com/problems/climbing-stairs/) `DP` `Tabulation` `Recursion and Memoization`
 
-- [Day 6](https://leetcode.com/problems/find-all-duplicates-in-an-array/) 
+- [Day 6](https://leetcode.com/problems/find-all-duplicates-in-an-array/)  `Interview` `O(1) Space Complexity`
 
 - [Day 7]()
 
