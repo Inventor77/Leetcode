@@ -14,7 +14,7 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 6](https://leetcode.com/problems/find-all-duplicates-in-an-array/)  `Interview` `O(1) Space Complexity`
 
-- [Day 7]()
+- [Day 7]() 
 
 - [Day 8]()
 
