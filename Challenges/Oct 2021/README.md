@@ -24,7 +24,7 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 11]()
 
-- [Day 12]()
+- [Day 12](https://leetcode.com/problems/guess-number-higher-or-lower/) `Binary Search`
 
 - [Day 13]()
 
