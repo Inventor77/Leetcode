@@ -38,7 +38,7 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 18]()
 
-- [Day 19]()
+- [Day 19](https://leetcode.com/problems/next-greater-element-i/) 
 
 - [Day 20]()
 
