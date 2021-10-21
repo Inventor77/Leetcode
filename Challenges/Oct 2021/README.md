@@ -42,7 +42,7 @@ This repository contains the solutions for the October Leetcode Challenge. Below
 
 - [Day 20](https://leetcode.com/problems/reverse-words-in-a-string/)
 
-- [Day 21]()
+- [Day 21]() 
 
 - [Day 22]()
 
